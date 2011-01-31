@@ -1,4 +1,3 @@
-
 = SixArm Ruby Gem
 
 Author:: Joel Parker Henderson, joel@joelparkerhenderson.com
