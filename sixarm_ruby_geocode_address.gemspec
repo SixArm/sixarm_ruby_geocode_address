@@ -1,10 +1,11 @@
 Gem::Specification.new do |s|
 
+  NAME                = "sixarm_ruby_geocode_address"
   CLASSES             = []
   TEST_FILES          = []
 
-  s.name              = "sixarm_ruby_geocode_address"
-  s.summary           = "SixArm Ruby Gem: sixarm_ruby_geocode_address"
+  s.name              = NAME
+  s.summary           = "SixArm.com » Ruby » sixarm_ruby_geocode_address"
   s.version           = "1.0.0"
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
