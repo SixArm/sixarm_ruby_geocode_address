@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 =begin rdoc
 
 = SixArm.com » Ruby » GeocodeAddress gem to connect to Google Maps API
@@ -48,7 +49,7 @@ class GeocodeAddress
 
   def get
     @get ||= Net::HTTP.get(uri)
-  end    
+  end
 
   def json
     @json ||= JSON.parse(get)
