@@ -1,8 +1,0 @@
-= SixArm.com » Ruby » GeocodeAddress gem to connect to Google Maps API
-
-Author:: Joel Parker Henderson, joel@joelparkerhenderson.com
-Copyright:: Copyright (c) 2010-2011 Joel Parker Henderson
-License:: See LICENSE.txt file
-
-
-

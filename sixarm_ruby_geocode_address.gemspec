@@ -1,10 +1,6 @@
 Gem::Specification.new do |s|
 
-  NAME                = "sixarm_ruby_geocode_address"
-  CLASSES             = []
-  TEST_FILES          = []
-
-  s.name              = NAME
+  s.name              = "sixarm_ruby_geocode_address"
   s.summary           = "SixArm.com » Ruby » sixarm_ruby_geocode_address"
   s.version           = "1.0.0"
   s.author            = "SixArm"
@@ -19,8 +15,15 @@ Gem::Specification.new do |s|
   s.files             = ['lib/sixarm_ruby_geocode_address.rb']
   s.test_files        = ['test/sixarm_ruby_geocode_address_test.rb']
 
-  s.files             = ['README.rdoc','LICENSE.txt','lib/sixarm_ruby_geocode_address.rb'] + CLASSES.map{|c| "lib/{name}/#{c}.rb"} + TEST_FILES.map{|f| "test/{name}/#{f}"}
-  s.test_files        = CLASSES.map{|c| "test/sixarm_ruby_ramp/#{c}_test.rb"}
+  CLASSES             = []
+  TEST_FILES          = []
+
+  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
+  lib_files           = ["lib/#{s.name}.rb"]
+  test_files          = ["test/#{s.name}_test.rb"]
+
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
 
   #s.add_dependency('foo', '>=0.0.0')
 
