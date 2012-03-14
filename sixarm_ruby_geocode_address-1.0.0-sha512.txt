@@ -1,0 +1,1 @@
+31aa8c9fc2a81904db2baad0c5b24a5ef7b18d50d9e50c4f14d3793fa218d3e6feeaa5af54fbe3e5076ed01eef311aee7f581e67207478a1243a1eeb0c5ceda2  sixarm_ruby_geocode_address-1.0.0.gem
