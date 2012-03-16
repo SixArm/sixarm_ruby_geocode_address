@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require 'test/unit'
+require 'minitest/autorun'
 require 'simplecov'
 SimpleCov.start
 require 'sixarm_ruby_geocode_address'
@@ -40,4 +40,3 @@ class GeocodeAddressTest < Test::Unit::TestCase
   end
 
 end
-
