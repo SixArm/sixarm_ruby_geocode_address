@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> GeocodeAddress gem to connect to Google Maps API
 
-* Docs: <http://sixarm.com/sixarm_ruby_geocode_address/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_geocode_address/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_geocode_address>
 * Repo: <http://github.com/sixarm/sixarm_ruby_geocode_address>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
