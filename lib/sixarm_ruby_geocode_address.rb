@@ -3,9 +3,9 @@
 Please see README
 =end
 
-require 'cgi'
-require 'net/http'
-require 'json'
+require "cgi"
+require "net/http"
+require "json"
 
 
 class GeocodeAddress
