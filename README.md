@@ -54,7 +54,3 @@ To install with high security:
    address.location  #=> {"lat" => 37.7931108, "lng" => -122.3964898}
    address.lat  #=> 37.7931108
    address.lng  #=> -122.3964898
-
-## Changes
-
-* 2012-03-14 1.0.4 Update docs, tests
