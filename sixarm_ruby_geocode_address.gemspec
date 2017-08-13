@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_geocode_address"
-  s.summary           = "SixArm.com » Ruby » Geocode address"
+  s.summary           = "SixArm.com → Ruby → Geocode address"
   s.description       = "Geocode an address via Google Maps API"
   s.version           = "1.0.5"
 
