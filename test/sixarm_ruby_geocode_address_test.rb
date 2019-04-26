@@ -4,7 +4,7 @@ require "simplecov"
 SimpleCov.start
 require "sixarm_ruby_geocode_address"
 
-class GeocodeAddressTest < Test::Unit::TestCase
+class GeocodeAddressTest < Minitest::Test
 
   GEO = GeocodeAddress.new("1 Main St, San Francisco, CA 94111")
   EXPECT_HREF = "http://maps.googleapis.com/maps/api/geocode/json?address=1+Main+St%2C+San+Francisco%2C+CA+94111&sensor=false"
